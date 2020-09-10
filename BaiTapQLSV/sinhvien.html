@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>SinhVien</title>
+  <link rel="stylesheet" href="style.css" />
+
+</head>
+<body>
+ <form action="#" method="GET">
+  <div>
+   <label>Tên</label>
+   <input type="text" id="ten"/>
+ </div>
+ <div>
+   <label>Mã SV</label>
+   <input type="number" id="masv"/>
+ </div>
+ <div>
+  <label>Email</label>
+  <input type="text" id="email"/>
+</div>
+<div>
+ <button id="xem">XemDS</button>
+ <button id="add">Thêm</button>
+ <button id="sua">Sửa</button>
+ <button id="luu">Lưu</button>
+ <button id="xoa">Xóa</button>
+ 
+</div>
+</form>
+
+<h2>Danh sách sinh viên</h2>
+<table border="1" cellspacing="0" cellpadding="5">
+  <thead>
+    <tr>
+      <th>Tên</th>
+      <th>Mã số sinh viên</th>
+      <th>Email</th>
+    </tr>
+  </thead>
+  <tbody id="danhsachsv">
+  </tbody>
+</table>
+<script type="text/javascript" src="sinhvien.js"></script>
+</body>
+</html>

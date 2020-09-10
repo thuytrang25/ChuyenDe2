@@ -1,0 +1,22 @@
+
+h2 {
+    color: #3366cc;
+    text-align: center;
+}
+
+div {
+    margin: 5px;
+}
+
+label{
+    width: 100px;
+    display: inline-block;
+}
+
+table {
+    width: 100%;
+}
+
+button {
+    margin: 6px;
+}
