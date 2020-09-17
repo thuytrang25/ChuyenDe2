@@ -1,0 +1,16 @@
+ul{
+	display: none;
+}
+li{
+	list-style-type: none;
+}
+h2 {
+	text-align: center;
+}
+p {
+	text-align: center;
+	background: white;
+	padding: 10px;
+	color: #fff;
+}
+
