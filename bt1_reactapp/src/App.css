@@ -1,0 +1,237 @@
+.App {
+  text-align: center;
+  background-color: #dddddd;
+  width: 860px;
+  height: 1220px;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+body {
+  font-family: Tahama;
+  font-size: 13px;
+  width: 1000px;
+  height: 1000px;
+  margin: 20px auto;
+  display: flex;
+}
+
+#titlecontent {
+  text-align: left;
+  font-size: 13px;
+}
+
+.content{
+  width: 500px;
+  boder: 1px solid #ccc;
+  float: left;
+  margin-left: 20px;
+  margin-top: 5px;
+  overflow: auto;
+  border-top: 3px solid blue;
+  background-color: white;
+}
+
+.content ul {
+  margin: 20px;
+  padding: 0px;
+}
+
+
+.content h1 {
+  padding-left: 20px;
+}
+
+.content ul li {
+  list-style: none;
+  clear: left;
+  border-bottom: 2px solid #ccc;
+  float: left;
+  margin-bottom: 20px;
+}
+
+.content ul li img{
+  float: left;
+  margin-top: 0px;
+  margin-right: 10px;
+  margin-bottom: 5px;
+}
+
+.title {
+  text-align: left;
+  margin-top: 0px;
+}
+
+p {
+  text-align: left;
+}
+
+.btn {
+  float: left;
+  border: 1px solid white;
+  padding: 5px 5px 5px 5px;
+}
+
+.sidebour{
+  width: 300px;
+  height: 1144px;
+ 
+  float: left;
+  margin-left: 10px;
+  margin-top: -15px;
+  overflow: auto;
+}
+
+.form {
+  height: 500px;
+  border: 1px solid #ccc;
+  background-color: #ff6600;
+}
+
+.news {
+  height: 800px;
+  border: 1px solid #ccc;
+  margin-top: 20px;
+  background-color: white;
+}
+
+#email {
+  width: 250px;
+  height: 30px;
+}
+
+.contentsb {
+  text-align: center;
+  line-height: 20px;
+  padding-right: 40px;
+  padding-left: 30px;
+  
+}
+
+.ipadd {
+  width: 220px;
+  height: 30px;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+#titlenews {
+  margin-top: 0px;
+  background-color: #000055;
+  color: white;
+  text-align: left;
+  padding-left: 20px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+.img {
+  width: 250px;
+  height: 200px;
+}
+
+.imgSB {
+  width: 50px;
+  height: 50px;
+  float: left;
+ 
+}
+
+.sidebour ul {
+  margin-top: 0px;
+}
+
+.sidebour ul li {
+  list-style: none;
+  margin-bottom: 20px;
+  
+}
+
+.sidebour p {
+  padding-left: 70px;
+  padding-right: 30px;
+}
+
+.sidebour h2 {
+  font-size: 15px;
+}
+
+#titleContent h1{
+  padding-top: 15px;
+  text-align: left;
+  margin-left: 20px;
+  margin-bottom:-5px;
+  font-size: 20px;
+}
+
+.sidebour ul li img{
+  float: left;
+  margin-right: 10px;
+  margin-left: 10px;
+}
+
+#form {
+  color: white;
+  text-align: center;
+  margin: 20px 10px 20px 20px;
+}
+
+#inputsubmit {
+  margin-right: 5px;
+  margin-left: 5px;
+}
+
+.form p, h2{
+  color: white;
+}
+
+.ipadd {
+  color: white;
+  background-color: #cc6600;
+  border: 1px solid #cc6600;
+}
+
+.title {
+  color: black;
+  font-size: 15px;
+  text-align: all;
+}
+
+.news ul li {
+  width: 280px;
+  margin-left: -40px;
+  border-bottom: 2px solid #ccc;
+}
